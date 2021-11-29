@@ -1,0 +1,230 @@
+body {
+    background:linear-gradient(to right top, #FFFFFF , #FFFFFF) ;
+}
+
+.container {
+    display:flex;
+    justify-content:space-evenly;
+    height:100px;
+    background:linear-gradient(to right top, #FFFFFF, #FFFFFF)  ; 
+    column-gap: normal;
+}
+
+
+.item {
+width: 100px;
+height: 100px;
+text-align: center;
+}
+
+
+.item1 {
+    height: 100px;  
+    width: 100px;
+    text-align:center;
+    margin-top: 10px;
+}
+
+
+.item2 {
+    width: 350px;
+    height: 100px;
+    margin-top: 10px;
+    
+}
+
+.item3 {
+    height: 100px;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.item4 {
+    height: 100px;
+    width: 350px;
+    margin-top: 10px;
+}
+.item5 {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+a {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    text-decoration: none;
+}
+.center {
+    width: 500px;
+    height: 500px;
+    margin-top: -10px;
+   
+}
+
+
+.img1 {
+    width: 70%;
+    height: 10;
+    margin-top: -10px;  
+    
+}
+
+ .container1 {
+     height:700px;
+     width: 1500px;
+     background:linear-gradient(to right top, #FFFFFF , #FFFFFF) ;
+     display: flex;
+     justify-content: center;
+     margin: auto;
+     width: 50%;
+     padding: 10px;
+     margin-top: -400px; 
+}
+
+ .item6 {
+     height:500px;
+     width:500px;
+    
+    
+}
+
+.kontakter {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.omoss {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imgkont {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.omossbild {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
+.containerprodukt {
+   display: flex;
+   justify-content:space-around;
+   flex: wrap;
+   margin-top:150px;
+   border: 10px solid rgba(0, 0, 0, 0.6);
+   height: 500px;
+   
+}
+
+
+.produktbild {
+    width: 200px;
+}
+.produktbild1 {
+    width: 200px;
+}
+.produktbild2 {
+    width: 200px;
+}
+.produktbild3 {
+    width: 200px;
+}
+.produktbild4 {
+    width: 200px;
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background:black; 
+    opacity: 0.6;
+    height: 200px;
+    text-align: center;
+    margin-top: 700px;
+    color:white;
+    bottom:0;
+}
+
+.produkter {
+    width: 200px;
+    height: 200px;
+}
+.produkter1 {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
+.produkter2 {
+    width: 200px;
+    height: 200px;
+}
+.produkter3 {
+    width: 200px;
+    height: 200px;
+}
+.produkter4 {
+    width: 200px;
+    height: 200px;
+}
+
+.rubrikcontainer {
+    width: 1500;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.kontaktrubrik {
+    height: 50px;
+    width: 100px;
+}
+.omosscontainer {
+    width: 1500;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.item6 {
+    margin-top: 350px;
+}
+
+.bildspel {display:block;
+}
+
+.produktrubrik {
+    width: 1880px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.produkttitel {
+    width: 110px;
+    height: 70px;
+    border: 3px solid black;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {background-color: rgb(35, 128, 172);}
+    to {background-color: rgb(197, 171, 171);}
+}
+
+.omossbild {
+    align-items: center;
+}
